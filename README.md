@@ -2,6 +2,8 @@
 
 A ReactJS project for monitoring AQI across various cities.
 
+![Alt Text](https://media.giphy.com/media/iegzjSyhhpaJuDNJ8b/giphy.gif?cid=790b76113cf436ffca88ca38b662c88877a7cd43cf35ff71&rid=giphy.gif&ct=g)
+
 ---
 
 ## Getting Started

@@ -1,0 +1,13 @@
+.cities-selector {
+  width: 50%;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.list-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

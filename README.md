@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# AQI Monitor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A ReactJS project for monitoring AQI across various cities.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+### Install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    $ git clone https://github.com/mohammad-23/aqi-monitor.git
+    $ cd aqi-monitor
+    $ npm install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To run the development server:
 
-### `yarn test`
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### `yarn build`
+## Project Goals
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Show Live city wise AQI data
+- Display AQI data in tabular form and add indicators to differentiate between AQI ranges
+- Compare AQI data between multiple cities
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tasks Accomplished
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Display Live AQI data in tabular form
+- Add color indicators on AQI values based on CBCB's Air Quality standards
+- Allow user to switch between tabular and chart form
+- Display AQI data on a line or a scatter chart
+- Allow selection of multiple cities and display data in a single chart
 
-### `yarn eject`
+## Libraries Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- AntD Charts - To plot line and scatter graphs
+- Semantic UI React - For UI Components
+- DayJS - To parse and format dates
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Time Taken
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1-2 days

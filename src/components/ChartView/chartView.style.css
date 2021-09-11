@@ -1,0 +1,12 @@
+.actions-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.chart-type-selector {
+  width: 30%;
+  margin: 0 auto 1em;
+  text-align: left;
+}

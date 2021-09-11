@@ -1,0 +1,29 @@
+.container {
+  width: 75%;
+  margin: 2em auto;
+  font-weight: 700;
+}
+
+.aqi.good {
+  color: green;
+}
+
+.aqi.satisfactory {
+  color: rgb(3, 202, 3);
+}
+
+.aqi.moderate {
+  color: rgb(233, 233, 61);
+}
+
+.aqi.poor {
+  color: orange;
+}
+
+.aqi.very-poor {
+  color: red;
+}
+
+.aqi.severe {
+  color: rgba(255, 0, 0, 0.664);
+}

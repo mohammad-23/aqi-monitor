@@ -1,0 +1,49 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  text-align: center;
+  height: 100%;
+}
+
+.app-header {
+  height: 2.5em;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.app-container {
+  margin: 2.5em;
+}
+
+.view-switch {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.view-switch > * {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+.view-icon {
+  display: flex;
+  align-items: center;
+}
+.view-icon:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.view-icon:active {
+  transform: scale(0.95);
+}
+.view-icon.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}

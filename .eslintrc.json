@@ -1,0 +1,40 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+    "react/display-name": "off",
+    "react/prop-types": "warn",
+    "no-console": ["warn"],
+    "quotes": ["error", "double", { "avoidEscape": true }],
+    "linebreak-style": ["error", "unix"],
+    "arrow-body-style": [2, "as-needed"],
+    "no-unused-vars": "warn",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "only-multiline",
+        "exports": "only-multiline",
+        "functions": "only-multiline"
+      }
+    ]
+  }
+}

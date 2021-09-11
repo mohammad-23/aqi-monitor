@@ -52,8 +52,18 @@ const ScatterChart = ({ selectedCities }) => {
     xAxis: {
       grid: { line: { style: { stroke: "#eee" } } },
       line: { style: { stroke: "#aaa" } },
+      title: {
+        text: "Updated At",
+        style: { fontSize: 16, stroke: "#aaa" },
+      },
     },
-    yAxis: { line: { style: { stroke: "#aaa" } } },
+    yAxis: {
+      line: { style: { stroke: "#aaa" } },
+      title: {
+        text: "AQI",
+        style: { fontSize: 16, stroke: "#aaa" },
+      },
+    },
     tooltip: {
       fields: ["updatedAt", "aqi"],
       enterable: true,

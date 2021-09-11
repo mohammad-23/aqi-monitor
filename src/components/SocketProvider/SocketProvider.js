@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { Component } from "react";
 import PropTypes from "prop-types";
 import dayjs from "dayjs";
